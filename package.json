@@ -1,0 +1,41 @@
+{
+  "type": "module",
+  "name": "s3-upload-sample",
+  "version": "1.0.0",
+  "description": "A sample project on how to transfer files to and from S3, also with examples on how to read from and .env file.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinshade/s3-upload-sample-nodejs.git"
+  },
+  "keywords": [
+    "sample",
+    "nodejs",
+    "javascript",
+    "s3",
+    "aws",
+    "upload",
+    "download",
+    "env",
+    "files",
+    "file"
+  ],
+  "author": "Abhishek Iyengar",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/tinshade/s3-upload-sample-nodejs/issues"
+  },
+  "homepage": "https://github.com/tinshade/s3-upload-sample-nodejs#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.9"
+  }
+}
